@@ -1,0 +1,63 @@
+*{
+    color: black;
+    background-color: rgb(131, 232, 217);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    color: red;
+    text-decoration: underline;
+}
+
+#head1{
+    color: blueviolet;
+    text-decoration: overline;
+    font-weight: lighter;
+}
+
+#head3{
+    color: bisque;
+}
+
+p{
+    color: rgb(32, 170, 156);
+}
+
+#p2{
+    color: aquamarine;
+    text-decoration: line-through;
+}
+
+#p3{
+    text-align: right;
+    font-weight: 900;
+}
+
+#p4{
+    text-align: center;
+    font-weight: lighter;
+}
+
+button{
+    background-color: cyan;
+    color: rgb(154, 5, 5);
+}
+
+#box{
+    background-color: blue;
+}
+
+h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    line-height: 50px;
+    font-size: 10px;
+}
