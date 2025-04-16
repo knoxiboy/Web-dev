@@ -1,0 +1,21 @@
+:root {
+    --loader-border-color: black;
+    --loader-text-color: var(--loader-border-color);
+}
+
+.loader{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 10px solid var(--loader-border-color);
+    border-radius: 50%;
+    border-top: 10px solid red;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
