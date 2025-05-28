@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="JS3_Functions.js"></script>
+    <h1 class="heading" id="head1">Hello</h1>
+    <p class="para">This is a paragraph.</p>
+
+    <div id="outerDiv" onmouseover="console.log('You are inside div');"> <!-- Inline Event Handler -->
+        <h2 class="heading">This is a heading inside div</h2>
+        <p>this is outer div</p>
+        <div id="innerDiv">
+            this is inner div
+        </div>
+    </div>
+
+    <button id="btn1" onclick="console.log('Button Clicked'); alert('Hello');"> <!-- Inline Event Handler -->
+        Click Me
+    </button>
+    <button id="btn2">
+        Click Me 2
+    </button>
+
+    <script src="JS5_Events.js"></script>
 </body>
 </html>
