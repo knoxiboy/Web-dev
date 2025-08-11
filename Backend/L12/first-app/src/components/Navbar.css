@@ -1,0 +1,18 @@
+nav, ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    gap: 34px;
+}
+
+nav{
+    color: black;
+    background-color: beige;
+    padding: 10px;
+    font-size: large;
+}
