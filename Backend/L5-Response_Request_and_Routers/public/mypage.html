@@ -8,7 +8,7 @@
 <body>
     <script>
         async function testPost() {
-            let a = await fetch("/", {method: "GET"}); // Change to POST if needed("GET" or "POST" or "PUT")
+            let a = await fetch("/", {method: "PUT"}); // Change to POST if needed("GET" or "POST" or "PUT")
             let b = await a.text();
             console.log(b);
         }

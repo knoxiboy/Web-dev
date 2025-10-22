@@ -15,9 +15,7 @@ app.get('/', (req, res) => {
 }).post('/', (req, res) => {
     console.log("Hey its a post request")
     res.send('Hello World post!')
-})
-
-app.put('/', (req, res) => {
+}).put('/', (req, res) => {
     console.log("Hey its a put request")
     res.send('Hello World put!')
 })

@@ -10,7 +10,7 @@ const fetchData = async () => {
         const response = await fetch(url);
         // Check if the response is ok (status in the range 200-299)
         if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
         // Display the response object in the console
         console.log(response);
